@@ -22,10 +22,10 @@ function Hero(props) {
 
     return (
         <section className="container pt-4">
-            <div className="row align-items-center">
+            <div className="row align-items-center" >
                 <div
-                    className="col-auto"
-                    style={{ width: 480, paddingRight: 80 }}>
+                    className="col-auto pr-5"
+                    style={{ width: 530}}>
                     <h1 className="font-weight-bold line-height-1 mb-3">
                         Forget Busy Work, <br />
                         Start Next Vacation
@@ -96,8 +96,8 @@ function Hero(props) {
                     </div>
                 </div>
 
-                <div className="col-6"
-                    style={{ paddingLeft: 110, marginTop: 30 }}>
+                <div className="col-auto pl-5"
+                    style={{ marginTop: 30, marginLeft:15 }}>
                     <div style={{ width: 520, height: 410 }}>
                         <img
                             src={imageHero}
